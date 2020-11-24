@@ -1,0 +1,13 @@
+@import 'abstracts/variables';
+
+@import 'vendors/bootstrap-v4.5/bootstrap';
+
+@import 'base/base';
+@import 'base/reset';
+
+@import 'layout/nav';
+@import 'layout/header';
+@import 'layout/footer';
+
+@import 'components/buttons';
+@import 'components/pagination';
