@@ -1,0 +1,10 @@
+.button{
+    border-radius: 25px;
+    padding: 1rem;
+    background-color: $nickel;
+    color: white;
+
+    &:hover{
+        opacity: 0.6196078431372549;
+    }
+}

@@ -9897,6 +9897,11 @@ h3 {
   }
 }
 body {
+  height: 100vh;
+  background-color: #fff;
+}
+
+body {
   margin: 0;
 }
 
@@ -9904,8 +9909,36 @@ img {
   max-width: 100%;
 }
 
-h1 {
-  color: blue;
+header {
+  background: url(../img/post-image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 44rem;
+}
+
+footer {
+  background-color: #121619;
+}
+
+.button {
+  border-radius: 25px;
+  padding: 1rem;
+  background-color: #6c6e70;
+  color: white;
+}
+.button:hover {
+  opacity: 0.6196078431;
+}
+
+.navbar {
+  background-color: #121619;
+}
+
+.navbar-brand img {
+  width: 4.9rem;
+  height: 2.9rem;
 }
 
 /*# sourceMappingURL=styles.css.map */
