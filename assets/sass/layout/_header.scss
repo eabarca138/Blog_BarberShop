@@ -6,3 +6,26 @@ header{
     position: relative;
     height: 44rem;
 }
+
+h1{
+    text-align: center;
+    color: $white;
+    font-size: 2.5rem;
+    display: inline-block;
+    margin: auto 51px;
+}
+
+@media only screen and (min-width: 600px) {
+    h1 {
+        font-size: 4.4rem;
+      width: 37.9rem;
+    }
+  }
+
+.titulo{
+    padding-top: 14.1rem;
+}
+
+.icono{
+    padding-top: 12rem;
+}

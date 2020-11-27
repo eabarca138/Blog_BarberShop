@@ -7,10 +7,11 @@
 @import 'base/typography';
 
 @import 'layout/header';
-@import 'layout/footer';
 @import 'layout/main';
-@import 'layout/section-pagination';
+@import 'layout/article';
 @import 'layout/section-naomithai';
+@import 'layout/section-pagination';
+@import 'layout/footer';
 
 @import 'components/buttons';
 @import 'components/pagination';

@@ -9909,6 +9909,15 @@ img {
   max-width: 100%;
 }
 
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+h1, h5 {
+  font-family: "Playfair Display", serif;
+  font-weight: 900;
+}
+
 header {
   background: url(../img/post-image.jpg);
   background-repeat: no-repeat;
@@ -9918,24 +9927,39 @@ header {
   height: 44rem;
 }
 
-footer {
-  background-color: #121619;
+h1 {
   text-align: center;
+  color: #fff;
+  font-size: 2.5rem;
+  display: inline-block;
+  margin: auto 51px;
 }
 
-footer img {
-  width: 7.6rem;
-  height: 2.1rem;
-  margin: 85px auto;
+@media only screen and (min-width: 600px) {
+  h1 {
+    font-size: 4.4rem;
+    width: 37.9rem;
+  }
+}
+.titulo {
+  padding-top: 14.1rem;
+}
+
+.icono {
+  padding-top: 12rem;
 }
 
 .contenedor {
   margin-left: 6.2rem;
 }
 
-.section-pagination {
-  background-color: #e6e7e7;
-  height: 8.4rem;
+article p {
+  font-weight: 300;
+  color: #222323;
+  padding-bottom: 2.1rem;
+}
+article p:first-child {
+  padding-top: 2.5rem;
 }
 
 .naomithai img {
@@ -9952,6 +9976,7 @@ footer img {
   font-size: 20px;
   color: #d76c69;
   text-decoration: none;
+  font-weight: 300;
 }
 .naomithai--links a:hover {
   opacity: 0.6;
@@ -9960,6 +9985,23 @@ footer img {
 .naomithai__descripcion {
   font-size: 14px;
   line-height: 2.2;
+  color: #222323;
+}
+
+.section-pagination {
+  background-color: #e6e7e7;
+  height: 8.4rem;
+}
+
+footer {
+  background-color: #121619;
+  text-align: center;
+}
+
+footer img {
+  width: 7.6rem;
+  height: 2.1rem;
+  margin: 85px auto;
 }
 
 .button {
@@ -9967,6 +10009,7 @@ footer img {
   padding: 0.6rem;
   background-color: #6c6e70;
   color: white;
+  margin-bottom: 2.5rem;
 }
 .button:hover {
   opacity: 0.6196078431;
