@@ -1,0 +1,23 @@
+.naomithai img{
+    clip-path: circle(50%);
+    width: 11rem;
+    height: 11rem;
+}
+
+.naomithai h5{
+    font-size: 30px;
+}
+
+.naomithai--links a{
+    font-size: 20px;
+    color: $ruddy-pink;
+    text-decoration: none;
+    &:hover{
+        opacity: 0.6;
+    }
+}
+
+.naomithai__descripcion{
+    font-size: 14px;
+    line-height: 2.2;
+}

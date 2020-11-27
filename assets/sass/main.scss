@@ -4,10 +4,13 @@
 
 @import 'base/base';
 @import 'base/reset';
+@import 'base/typography';
 
-@import 'layout/nav';
 @import 'layout/header';
 @import 'layout/footer';
+@import 'layout/main';
+@import 'layout/section-pagination';
+@import 'layout/section-naomithai';
 
 @import 'components/buttons';
 @import 'components/pagination';

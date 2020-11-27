@@ -1,0 +1,21 @@
+.section-pagination nav{
+    padding-top: 2.9rem;
+}
+
+.page-link{
+    color: black;
+    &:hover{
+        background-color: $nickel;
+        color: $white;
+    }
+}
+
+.pagination li:first-child a {
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+.pagination li:last-child a {
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
