@@ -9962,6 +9962,11 @@ article p:first-child {
   padding-top: 2.5rem;
 }
 
+.naomithai {
+  padding-top: 40px;
+  padding-bottom: 92px;
+}
+
 .naomithai img {
   clip-path: circle(50%);
   width: 11rem;
@@ -9988,6 +9993,11 @@ article p:first-child {
   color: #222323;
 }
 
+@media only screen and (max-width: 600px) {
+  .naomithai {
+    text-align: center;
+  }
+}
 .section-pagination {
   background-color: #e6e7e7;
   height: 8.4rem;
@@ -10015,6 +10025,11 @@ footer img {
   opacity: 0.6196078431;
 }
 
+@media only screen and (max-width: 600px) {
+  .botones {
+    text-align: center;
+  }
+}
 .section-pagination nav {
   padding-top: 2.9rem;
 }

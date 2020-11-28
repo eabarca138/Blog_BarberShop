@@ -8,3 +8,9 @@
         opacity: 0.6196078431372549;
     }
 }
+
+@media only screen and (max-width: 600px) {
+    .botones {
+        text-align: center;
+    }
+  }

@@ -1,3 +1,8 @@
+.naomithai{
+    padding-top: 40px;
+    padding-bottom: 92px;
+}
+
 .naomithai img{
     clip-path: circle(50%);
     width: 11rem;
@@ -23,3 +28,9 @@
     line-height: 2.2;
     color: $raisin-black;
 }
+
+@media only screen and (max-width: 600px) {
+    .naomithai {
+        text-align: center;
+    }
+  }
